@@ -64,7 +64,7 @@ def index():
     cursor.close()
     conn.close()
     
-    return f"<h1>CI/CD Pipeline is Awesome!</h1><p>This page has been visited {count} times.</p>"
+    return f"<h1>CI/CD Pipeline is Tooo Goood!</h1><p>This page has been visited {count} times.</p>"
 
 if __name__ == '__main__':
     initialize_db()  # Ensure the table exists before running
